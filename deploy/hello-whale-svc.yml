@@ -6,8 +6,7 @@ metadata:
     app: hello-whale-app
 spec:
   selector:
-    app: hello-whale-app
-    version: blue
+    app: hello-whale-app 
   type: NodePort
   ports:
   - nodePort: 31113
