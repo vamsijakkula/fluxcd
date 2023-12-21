@@ -8,13 +8,11 @@ spec:
   selector:
     matchLabels:
       app: hello-whale-app
-      version: blue
   template:
     metadata:
       name: hello-whale-pod
       labels:
         app: hello-whale-app
-        version: blue
     spec:
       containers:
       - name: hello-whale-container
