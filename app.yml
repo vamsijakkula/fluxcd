@@ -7,7 +7,7 @@ spec:
   interval: 1m
   ref:
     branch: main
-  url: https://github.com/vamsijakkula/hwflx
+  url: https://github.com/vamsijakkula/fluxcd
 
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1
