@@ -16,7 +16,7 @@ metadata:
   name: hellowhale
   namespace: flux-system
 spec:
-  interval: 1m0s
+  interval: 1m
   path: ./deploy
   prune: true
   retryInterval: 2m0s
