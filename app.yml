@@ -19,7 +19,7 @@ spec:
   interval: 1m0s
   path: ./deploy
   prune: true
-  retryInterval: 1m0s
+  retryInterval: 2m0s
   sourceRef:
     kind: GitRepository
     name: podinfo
